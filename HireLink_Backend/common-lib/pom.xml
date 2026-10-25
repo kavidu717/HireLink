@@ -29,12 +29,13 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <scope>annotationProcessor</scope>
+            <version>1.18.42</version>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
-            <groupId>org.fasterxml.jakson.core</groupId>
-            <artifactId>jakson-annotations</artifactId>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
 
         </dependency>
     </dependencies>

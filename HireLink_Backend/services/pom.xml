@@ -22,6 +22,7 @@
 
     <modules>
         <!--        -->
+        <module>job-portal-user-service</module>
     </modules>
 
 </project>
