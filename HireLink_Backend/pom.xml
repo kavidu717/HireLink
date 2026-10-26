@@ -45,11 +45,11 @@
                 <scope>import</scope>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>com.HireLink.jobs</groupId>-->
-<!--                <artifactId>job-portal-common</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.HireLink.Jobs</groupId>
+                <artifactId>job-portal-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <!-- Source: https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
             <dependency>
