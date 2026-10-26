@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Builder
+@Table(name = "users")
 public class User {
      @Id
      @GeneratedValue(strategy = GenerationType.AUTO)
@@ -27,7 +28,7 @@ public class User {
      @Column(nullable = false)
      private String password;
 
-     @Column(nullable = false)
+     @Column(nullable = false, unique = true)
      private String email;
 
      private String phone;
@@ -55,6 +56,6 @@ public class User {
 
      private LocalDateTime deletedAt;
 
-     
+
 
 }
